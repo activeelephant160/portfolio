@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Condensed:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Sue+Ellen+Francisco&display=swap');
+
+body{
+    background-color: #F7EDE2;
+}
+
+.navbar{
+    background-color:#F28482;
+    width:100vw;
+    font-family: "Roboto Condensed";
+    font-size: 1.25rem;
+    font-weight: bolder;
+    font-stretch: 250%;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.overall{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.part1{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin-top: 1.5rem;
+}
+
+.subheading{
+    font-family: "Raleway"; 
+    color: #84A59D;
+    font-size: 3rem; 
+    font-weight: bolder;
+    text-align: left;
+}
+
+.sub-part{
+    width:90vw;
+    margin-top: 0.75rem;
+    font-family: "Roboto Condensed";
+}
+
+.table-bordered{
+    border-color: #84A59D;
+    font-family: "Roboto Condensed"; 
+    font-size: 1.25rem;
+}
+
+h3{
+    font-size: 2.5rem;
+    color: #F28482;
+}
+
+h4{
+    font-size: 2rem;
+    font-style: italic;
+}
+
+h5{
+    font-size: 1.5rem;
+    font-style: bolder; 
+}
+
+.footy{
+    background-color: #84A59D;
+    height: 15vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top:2rem;
+}
+
+.list-style{
+    font-size: 1.25rem;
+}
+.carousel-control-prev-icon{
+    height: 30px;
+    width: 30px;
+    background-color: #84A59D;
+    background-size: 100%, 100%;
+}
+
+.carousel-control-next-icon{
+    height: 30px;
+    width: 30px;
+    background-color: #84A59D;
+    background-size: 100%, 100%;
+}
+
+.carousel-control-prev{
+    margin-left: -6.5rem;
+}
+
+.carousel-control-next{
+    margin-right: -6.5rem;
+}
+
+.carousel-holder{
+    display:flex; 
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+h6{
+    font-size: 1.25rem;
+}
